@@ -12,8 +12,10 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
                 , "html:target/cucumber/report.html"
                 , "summary"
         }
+        ,features = {"src/test/resources"}
+        ,glue = {"com.qa.stepdef"}
         ,snippets = CAMELCASE
-        ,dryRun = true
+        ,dryRun = false
         ,monochrome = true
 )
 public class MyRunnerTest {
