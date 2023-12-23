@@ -1,2 +1,4 @@
-package com.qa.utils;public class DiverManager {
+package com.qa.utils;
+
+public class DiverManager {
 }
